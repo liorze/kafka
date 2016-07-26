@@ -38,6 +38,8 @@ object Config {
   var frameworkRole: String = "*"
   var frameworkTimeout: Period = new Period("30d")
 
+  var taskName: String = "executor"
+
   var jre: File = null
   var log: File = null
   var api: String = null
